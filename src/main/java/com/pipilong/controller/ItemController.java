@@ -22,7 +22,7 @@ public class ItemController {
     @GetMapping("/{keyword}")
     String get(@PathVariable String keyword) throws Exception {
         itemService.search(keyword);
-        return "";
+        return "爬取成功！";
     }
 
 }
