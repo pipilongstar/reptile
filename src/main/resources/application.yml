@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+
+
+
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://sh-cynosdbmysql-grp-1sh10zo6.sql.tencentcdb.com:25647/springboot
+    username: pipilong
+    password: ZSLnlshb2623
+
+  devtools:
+    restart:
+      enabled: true
