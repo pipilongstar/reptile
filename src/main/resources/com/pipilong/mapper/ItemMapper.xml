@@ -4,7 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.pipilong.mapper.ItemMapper">
 
-
     <insert id="save">
         insert into reptile.commodity_entry value (null,'${title}',${price},
             '${pic}','${url}','${created}','${updated}',${sku})
@@ -13,6 +12,5 @@
     <select id="findAll" resultType="com.pipilong.domain.Item" parameterType="com.pipilong.domain.Item">
         select * from reptile.commodity_entry where sku = ${sku}
     </select>
-
 
 </mapper>
